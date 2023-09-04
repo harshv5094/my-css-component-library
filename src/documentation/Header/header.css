@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.header {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--navlink-color);
+  transition: color 0.4s ease;
+}
+
+.header:hover {
+  color: var(--navlink-hover-color);
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0em 1em;
+  text-decoration: none;
+  color: var(--navlink-color);
+  transition: color 0.4s ease;
+}
+
+.nav-link:hover {
+  color: var(--navlink-hover-color);
+}
